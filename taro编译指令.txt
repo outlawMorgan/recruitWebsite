@@ -1,0 +1,6 @@
+# npm script
+$ npm run dev:weapp
+$ npm run build:weapp
+
+# watch 同时开启压缩（直接输这句就好了）
+$ set NODE_ENV=production && taro build --type weapp --watch # Windows

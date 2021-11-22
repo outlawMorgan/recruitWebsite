@@ -1,0 +1,167 @@
+//页面架构样式
+.container-fill{
+	height: 1200rpx;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+
+.scroll-fullpage{
+	height: 100%;
+  transition: all 0.5s;
+	width: 100%;
+}
+.section{
+  height: 100%;
+}
+
+//中间招聘信息的样式
+.container{
+  font-family: 微软雅黑;
+  padding:15rpx;
+}
+
+.occupation_salary{
+width:100%;
+overflow: hidden;
+vertical-align: middle;
+border-bottom: 1px solid #EBEBEB;
+padding-bottom: 20rpx;
+height:60rpx;
+line-height: 60rpx;
+}
+
+.occupation{
+font-size:50rpx;
+display: inline-block;
+font-weight:600;
+}
+
+.salary{
+font-size:36rpx;
+float: right;
+color: #37C2BC
+}
+
+.head{
+font-size: 36rpx;
+font-weight:500;
+color:#000;
+display: block;
+}
+
+.requirement{
+width:100%;
+margin-top:10rpx;
+color:rgb(128,128,128);
+border-bottom: 1px solid #EBEBEB;
+padding-bottom: 10rpx;
+}
+
+.introduction{
+max-height:200rpx;
+overflow: scroll;
+border-bottom: 1px solid #EBEBEB;
+margin-top:10rpx;
+padding-bottom: 10rpx;
+}
+
+.introduction .content{
+margin-top:15rpx;
+font-size:32rpx;
+line-height: 38rpx;
+color:rgb(128,128,128);
+}
+
+.welfare{
+width:100%;
+max-height: 120rpx;
+margin:10rpx 0rpx;
+padding-bottom: 10rpx;
+overflow: scroll;
+border-bottom: 1px solid #EBEBEB;
+}
+.welfare .item{
+  margin: 5rpx 10rpx 0rpx 0rpx;
+  padding: 10rpx 15rpx;
+  font-size: 28rpx;
+  // vertical-align: middle;
+  border-radius: 5%;
+  background-color: rgb(212, 211, 211);
+  float:left;
+}
+
+.contact{
+  width:100%;
+  max-height: 120rpx;
+  margin-top:10rpx;
+  color:rgb(128,128,128);
+  border-bottom: 1px solid #EBEBEB;
+  padding-bottom: 10rpx;
+}
+
+.notice{
+  width: 100%;
+  margin-top:20rpx;
+  text-align: center;    
+  color:rgb(128,128,128);
+}
+
+.promote{
+  overflow: hidden;
+}
+.promote .head{
+  text-align: left;
+}
+.promotePhoto{
+width:500rpx;
+height:350rpx;
+float:left;
+}
+
+//点赞按钮的样式
+.like{
+  width:106rpx;
+  height:97rpx;
+  float:right;
+  padding:10rpx;
+  border-right: 6rpx solid rgb(202, 202, 202);
+  border-bottom: 6rpx solid rgb(202, 202, 202);
+}
+
+// 地下俩按钮的样式
+.home_mine{
+  background-color: #000;
+  height: 100rpx;
+  font-weight: bolder;
+	width: 100%;
+	position: fixed;
+	bottom: 0rpx;
+	z-index: 1;
+}
+
+.home{
+  display: inline-block;
+  width: 50%;
+  line-height: 100rpx;
+}
+.mine{
+  display: inline-block;
+  line-height: 100rpx;
+  width: 50%;
+}
+
+.button1{
+  background-color: #000093;
+  border-radius: 0%;
+}
+
+.button2{
+  background-color: #000093;
+  border-radius: 0%;
+}
+
+
+
+

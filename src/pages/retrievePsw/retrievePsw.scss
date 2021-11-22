@@ -1,0 +1,32 @@
+#formElement{
+    margin:20rpx auto 0rpx;
+    display:flex; 
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #formElement .inputList{
+    padding:10rpx;
+    margin-bottom:10rpx;
+    border-bottom:.5rpx solid #aaa;
+  }
+  #formElement .inputList .fronter{
+    float:left;
+    margin:0rpx 50rpx 0rpx 10rpx;
+  }
+  #formElement .inputList #shortFronter{
+    margin:0rpx 113rpx 0rpx 10rpx;
+  }
+  #formElement .inputList button{
+    width:255rpx;
+    font-size:28rpx;
+    float:right;
+    margin-right:-20rpx;
+    margin-top:-18rpx;
+    border-radius: 5%;
+    color:#000;
+    font-weight:700;
+  }
+  #changePsw{
+    margin-top: 20rpx;
+    background-color: #0066cc;
+  }

@@ -1,0 +1,86 @@
+.wrapper{
+    font-family: 微软雅黑;
+}
+
+.line{
+    display: flex;
+    margin: 10px 0 0 10px;
+    font-size:32rpx;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.head{
+    background-color: #F5F5F5;
+    height: 44rpx;
+    font-size:32rpx;
+}
+
+label{
+    // display: line;
+    margin: 10px 10px;
+    width: 140rpx;
+}
+
+.head view{
+    margin: 0px 0px 30px 20px;
+    // padding: 12rpx 0rpx;
+    font-size: 32rpx;
+    color: rgb(128,128,128);
+}
+
+.inputbox{
+    margin: 10px 10px;
+    color: rgb(128,128,128);
+}
+.accountInput{
+    width:78%;
+    margin: 10px 10px;
+    color: rgb(128,128,128);
+}
+
+.prompt1,.prompt2{
+    padding: -10px 0px 15px 10px;
+    text-indent: 1ex;
+    background-color: #F5F5F5;
+}
+.prompt1{
+    color:rgb(232, 47, 1);
+}
+.prompt2{
+    color:rgb(0, 246, 1); 
+}
+
+.location{
+    font-size: 28rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    margin: 15px 0px ;
+    width:20%;
+}
+
+.textarea{
+    text-indent: 1ex;
+}
+
+.imageContainer{
+    width:99%;
+    margin:0rpx auto;
+    height:256rpx;
+    vertical-align: middle;
+}
+
+.imageStyle{
+    width:246rpx;
+    height:246rpx;
+    padding:3rpx;
+    border:dashed 3rpx rgb(128,128,128);
+}
+
+.register{
+    margin-top: 50px;
+}
+
+.registerbutton{
+    background: rgb(50,116,229);
+    color: white;
+}

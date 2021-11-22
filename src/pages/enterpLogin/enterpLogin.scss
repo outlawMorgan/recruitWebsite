@@ -1,0 +1,32 @@
+#formElement{
+    margin:20rpx auto 0rpx;
+    display:flex; 
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #formElement .inputList{
+    padding:10rpx;
+    margin-bottom:10rpx;
+    border-bottom:1rpx solid #aaa;
+  }
+  #formElement .inputList .fronter{
+    float:left;
+    margin:0rpx 50rpx 0rpx 10rpx;
+  }
+  #formElement #forgetPsw{
+    float:right;
+    margin-right:10rpx;
+    font-size:25rpx;
+    color:#00BFFF;
+  }
+  #signIn, #register{
+    background-color: #0066cc;
+  }
+  #signIn{
+    margin-top:30rpx;
+    width:40%;
+  }
+  #register{
+    margin-top:20rpx;
+    width:40%;
+  }

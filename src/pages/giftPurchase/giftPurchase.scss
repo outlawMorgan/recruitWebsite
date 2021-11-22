@@ -1,0 +1,84 @@
+.head{
+font-size: 60rpx;
+text-align: center;
+}
+  
+.number{
+color: #AF5B4B;
+text-align: center;
+}
+
+.date{
+text-align: center;
+}
+
+.number{
+font-size: 80rpx;
+}
+
+.coupons{
+
+width: 70%;
+height: 150rpx;
+border-radius: 5%;
+background-color: #3E9DCB;
+display: flex;
+align-items: center;
+margin-top: 30rpx;
+margin-left: 30rpx;
+}
+
+
+.detail{
+background-color: #fff;
+height: 100rpx;
+width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 30rpx;
+}
+
+.left1,.left2,.left3{
+width:100rpx;
+height:60rpx;
+border-right: 1px dashed black;
+padding: 20rpx 10rpx 20rpx 10rpx;
+margin-left: -30rpx;
+font-size: 45rpx;
+font-weight: 900;
+color: #AF5B4B;
+}
+.left1{
+    background: url("../../img/coco.jpg") no-repeat;
+    background-size: cover;
+}
+.left2{
+    background: url("../../img/ydd.jpg") no-repeat;
+    background-size:cover;
+}
+.left3{
+    background: url("../../img/xc.JPG") no-repeat;
+    background-size: cover;
+}
+.right{
+margin-left: 10rpx;
+}
+
+.pay{
+font-size: 35rpx;
+margin-top: 75rpx;
+margin-left: 20rpx;
+border: 1px solid black;
+border-radius: 5%;
+height: 70rpx;
+width: 160rpx;
+text-align: center;
+line-height: 70rpx;
+background-color: #069BE4;
+color: #fff;
+}
+
+.line{
+display: flex;
+}

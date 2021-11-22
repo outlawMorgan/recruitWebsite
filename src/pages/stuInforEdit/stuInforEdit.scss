@@ -1,0 +1,61 @@
+/* pages/user/user.wxss */
+.line{
+    display:flex;
+    margin: 10px 0 0 10px;
+    border-bottom: 1px solid #F5F5F5;
+    vertical-align: middle;
+  }
+  .head{
+    background-color: #F5F5F5;
+    height: 44px;
+  }
+  .label{
+    margin: 15px 10px;
+    width: 20%;
+  }
+  .head>view{
+    margin:15rpx 0rpx 15rpx 0rpx;
+    color: rgb(128,128,128);
+  }
+  .inputbox{
+    margin: 15px 10px;
+    color:rgb(128,128,128);
+  }
+  
+  .sex{
+    margin: 15px 10px;
+  }
+  
+  .location{
+    font-size: 14px;
+    height: 30px;
+    margin: 15px 0px ;
+  }
+  
+  .textarea{
+    margin: 20px 15px;
+  }
+  
+  .imageContainer{
+    width:99%;
+    margin:0rpx auto;
+    height:256rpx;
+    vertical-align: middle;
+  }
+
+  .imageStyle{
+      width:246rpx;
+      height:246rpx;
+      padding:3rpx;
+      border:dashed 3rpx rgb(128,128,128);
+  }
+
+  .register{
+    margin-top: 50px;
+  }
+  
+  .registerbutton{
+    background: rgb(50,116,229);
+    color: white;
+  }
+  

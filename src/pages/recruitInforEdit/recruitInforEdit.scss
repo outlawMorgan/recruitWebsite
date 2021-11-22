@@ -1,0 +1,68 @@
+.line{
+    display:flex;
+    margin: 10rpx 0 0 10rpx;
+    font-size:32rpx;
+    border-bottom: 1px solid #F5F5F5;
+  }
+.head{
+    background-color: #F5F5F5;
+    height: 60rpx;
+}
+.label{
+    margin: 15rpx 0 0 10rpx;
+    width: 180rpx;
+}
+
+.head>view{
+    padding: 10rpx 10rpx;
+    font-size: 35rpx;
+}
+.inputbox{
+    margin: 15rpx 10rpx;
+    color: rgb(128,128,128);
+}
+
+.sex{
+    margin: 15rpx 10rpx;
+}
+
+.radio{
+    margin-right:15rpx;
+}
+
+.textarea{
+    margin: 15rpx 10rpx;
+    text-indent:10rpx;
+}
+
+.register{
+    margin-top: 0rpx;
+}
+
+.imageContainer{
+    width:99%;
+    margin:0rpx auto;
+    height:256rpx;
+    vertical-align: middle;
+}
+
+.imageStyle{
+    width:246rpx;
+    height:246rpx;
+    padding:3rpx;
+    margin:15rpx 10rpx;
+    border:dashed 3rpx rgb(128,128,128);
+}
+
+.registerbutton{
+    background: rgb(50,116,229);
+    color: white;
+}
+.option{
+    margin-bottom: 10rpx;
+}
+.mul-welfare{
+    display:flex;
+    margin: 10rpx 0 0rpx 10rpx;
+    font-size: 32rpx;
+}

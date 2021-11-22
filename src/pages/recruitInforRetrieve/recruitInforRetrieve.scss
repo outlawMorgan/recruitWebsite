@@ -1,0 +1,54 @@
+.wrapper{
+    font-family: 微软雅黑;
+}
+.notice{
+    width: 100%;
+    margin-top:20rpx;
+    text-align: center;    
+    color:rgb(128,128,128);
+
+}
+.recruitInfor{
+    width:100%;
+    border-bottom: 15rpx solid rgb(233, 233, 233);
+    padding:20rpx 15rpx;
+}
+.header{
+    width:100%;
+    overflow: hidden;
+}
+.jobName{
+    font-weight:550;
+    height:40rpx;
+    line-height: 40rpx;
+    font-size:35rpx;
+    vertical-align: middle;
+    float:left;
+}
+.salary{
+    height:40rpx;
+    line-height: 40rpx;
+    margin-right:30rpx;
+    color:rgb(20, 168, 168);
+    font-size:32rpx;
+    float:right;
+}
+.requirement{
+    width:100%;
+    margin-top:20rpx;
+    color:rgb(128,128,128);
+}
+.welfare{
+    width:100%;
+    margin-top:12rpx;
+    overflow: hidden;
+}
+.welfare .item{
+    margin: 10rpx 10rpx 0rpx 0rpx;
+    padding: 10rpx 15rpx;
+    font-size: 28rpx;
+    // vertical-align: middle;
+    border-radius: 5%;
+    background-color: rgb(212, 211, 211);
+    float:left;
+}
